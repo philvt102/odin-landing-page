@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', Verdana, serif ;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.header-logo {
+    font-size: 24;
+    color: #f9faf8;
+}
+.header-text, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+}
+
+.info-heading {
+    font-weight: 900;
+}
+
+.caption {
+    font-size: 18px;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.quote-text {
+    font-weight: 300;
+}
+.quote-attrib {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.interact-box {
+    background-color: #3882f6;
+}
+
+.interact-header {
+    color: white;
+    font-size: 24px;
+}
+.interact-text {
+    color: white;
+    font-size: 18px;
+}
+
+.copyright {
+    color: white;
+}
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
