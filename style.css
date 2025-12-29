@@ -1,7 +1,12 @@
+/* {
+    box-sizing: border-box;
+}*/
+
 body {
     font-family: 'Roboto', Verdana, serif ;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .header-panel {
@@ -13,12 +18,38 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 36px;
 }
 .hero-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    width: 600px;
+    width: 800px;
+}
+
+
+.info-heading {
+    margin-bottom: 60px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+
+.img-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caption {
+    width: 200px;
+    font-size: 18px;
 }
 
 .header, .footer {
@@ -37,6 +68,8 @@ body {
 .header-text, a {
     font-size: 18px;
     color: #e5e7eb;
+    text-align: left;
+    width: 500px;
 }
 
 a {
@@ -62,22 +95,39 @@ button {
     font-weight: 900;
 }
 
-.caption {
-    font-size: 18px;
-}
 .quote {
     background-color: #e5e7eb;
+    padding: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .quote-text {
     font-weight: 300;
+    width: 400px;
 }
+
 .quote-attrib {
     font-size: 18px;
     font-weight: 700;
+    text-align: right;
+}
+
+.interact {
+    padding: 72px;
+    display: flex;
+    justify-content: center;
 }
 
 .interact-box {
     background-color: #3882f6;
+    border-radius: 8px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    align-items: center;
 }
 
 .interact-header {
@@ -87,6 +137,10 @@ button {
 .interact-text {
     color: white;
     font-size: 18px;
+}
+
+.int-text{
+    text-align: left;
 }
 
 .copyright {
